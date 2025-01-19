@@ -1,0 +1,158 @@
+{
+  "@timestamp": [
+    "2025-01-17T10:29:25.724Z"
+  ],
+  "agent.ephemeral_id": [
+    "42228aca-b331-4f27-b9f0-a818a32fac0c"
+  ],
+  "agent.id": [
+    "4340251c-73b4-49ce-92d5-b145d9098315"
+  ],
+  "agent.name": [
+    "kali"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "component.binary": [
+    "filebeat"
+  ],
+  "component.dataset": [
+    "elastic_agent.filebeat"
+  ],
+  "component.id": [
+    "log-default"
+  ],
+  "component.type": [
+    "log"
+  ],
+  "container.id": [
+    "elastic-agent-8.17.0-96f2b9"
+  ],
+  "data_stream.dataset": [
+    "elastic_agent.filebeat"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.0.0"
+  ],
+  "elastic_agent.id": [
+    "4340251c-73b4-49ce-92d5-b145d9098315"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.dataset": [
+    "elastic_agent.filebeat"
+  ],
+  "event.ingested": [
+    "2025-01-17T10:29:41.000Z"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.containerized": [
+    false
+  ],
+  "host.hostname": [
+    "kali"
+  ],
+  "host.id": [
+    "30e662c5c81d4191bd2444a79c97d2e0"
+  ],
+  "host.ip": [
+    "192.168.1.42",
+    "fe80::37b3:ac1a:5c75:3ee9",
+    "172.17.0.1",
+    "fe80::42:45ff:fe70:c2c5",
+    "fe80::8495:a1ff:fe01:c058"
+  ],
+  "host.mac": [
+    "02-42-45-70-C2-C5",
+    "08-00-27-B7-7B-83",
+    "86-95-A1-01-C0-58"
+  ],
+  "host.name": [
+    "kali"
+  ],
+  "host.os.codename": [
+    "kali-rolling"
+  ],
+  "host.os.family": [
+    "debian"
+  ],
+  "host.os.kernel": [
+    "6.8.11-amd64"
+  ],
+  "host.os.name": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.name.text": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.platform": [
+    "kali"
+  ],
+  "host.os.type": [
+    "linux"
+  ],
+  "host.os.version": [
+    "2024.3"
+  ],
+  "input.type": [
+    "filestream"
+  ],
+  "log.file.device_id": [
+    "2049"
+  ],
+  "log.file.inode": [
+    "2621891"
+  ],
+  "log.file.path": [
+    "/opt/Elastic/Agent/data/elastic-agent-8.17.0-96f2b9/logs/elastic-agent-20250117-1.ndjson"
+  ],
+  "log.level": [
+    "info"
+  ],
+  "log.logger": [
+    "publisher_pipeline_output"
+  ],
+  "log.offset": [
+    122447
+  ],
+  "log.origin.file.line": [
+    146
+  ],
+  "log.origin.file.name": [
+    "pipeline/client_worker.go"
+  ],
+  "log.origin.function": [
+    "github.com/elastic/beats/v7/libbeat/publisher/pipeline.(*netClientWorker).run"
+  ],
+  "log.source": [
+    "log-default"
+  ],
+  "message": [
+    "Connection to backoff(elasticsearch(https://e464e8548c56436eaaa2a96aa4f4f55e.es.us-east-1.aws.elastic.cloud:443)) established"
+  ],
+  "service.name": [
+    "filebeat"
+  ],
+  "_id": "AZRzz4xXbmfCsOy6y2mI",
+  "_index": ".ds-logs-elastic_agent.filebeat-default-2025.01.14-000001",
+  "_score": null
+}
